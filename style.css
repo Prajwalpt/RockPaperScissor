@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.logos{
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo :hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*Add a slight shadow effect on hover */
+.logo:hover i {
+    text-shadow: 5px 5px 10px rgba(214, 21, 21, 0.705);
+}
+
+.count{
+    font-weight:bold;
+}
+
+.scorecard{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10vw;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 10vh;
+}
+
+#msg{
+    text-align: center;
+}
